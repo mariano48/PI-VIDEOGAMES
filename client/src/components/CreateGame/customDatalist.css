@@ -1,0 +1,28 @@
+.datalistButton {
+  border: 1px solid lightgray;
+  height: 39px;
+  background: #efefef;
+  border-radius: 0 4px 4px 0;
+  color: rgb(44, 42, 42);
+  width: 24px;
+  padding: 0;
+  border-left: none;
+}
+
+.inputSelect {
+  width: 56%;
+  height: 35px;
+  border: 1px solid lightgray;
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+  text-align: center;
+  color: rgb(85, 84, 84);
+  font-size: 17px;
+}
+
+.inputSelect:focus {
+  outline: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(46, 46, 228);
+}

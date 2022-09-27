@@ -1,0 +1,144 @@
+.createGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 83vh;
+  width: 90%;
+  margin-top: 2%;
+}
+
+.gameInputs {
+  height: 75%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstFive {
+  display: flex;
+  flex-direction: column;
+  color: #191919;
+  width: 100%;
+  height: 14.28%;
+  align-items: center;
+}
+
+.gameInputs label {
+  font-size: 16px;
+}
+
+.gameInputs p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: red;
+}
+
+.formInfo {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputRegular {
+  width: 60%;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  color: rgb(85, 84, 84);
+  text-align: center;
+  font-size: 17px;
+}
+
+.inputRegular:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(46, 46, 228);
+}
+
+.plusButton {
+  border: none;
+  background: none;
+}
+
+.customDatalist {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.submitDiv {
+  display: flex;
+}
+
+.submitButton {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  line-height: 15px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  line-height: 15px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  margin: 2px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: rgb(135, 123, 123) transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.successP {
+  color: green;
+}
+
+.errorP {
+  color: red;
+}

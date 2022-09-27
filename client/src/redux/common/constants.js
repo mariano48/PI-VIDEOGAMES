@@ -1,0 +1,11 @@
+export const GET_ALL_VIDEOGAMES = "GET_ALL_VIDEOGAMES";
+export const GET_ALL_GENRES = "GET_ALL_GENRES";
+export const GET_GAME_BY_ID = "GET_GAME_BY_ID";
+export const GET_GAMES_BY_NAME = "GET_GAMES_BY_NAME";
+export const GET_ALL_PLATFORMS = "GET_ALL_PLATFORMS";
+export const FILTER_BY = "FILTER_BY";
+export const SORT_GAMES = "SORT_GAMES";
+export const CREATE_GAME = "CREATE_GAME";
+export const RESET_FILTERS = "RESET_FILTERS";
+export const LOADING = "LOADING";
+export const ERROR = "ERROR";

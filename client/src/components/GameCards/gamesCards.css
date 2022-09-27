@@ -1,0 +1,35 @@
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  justify-content: space-evenly;
+}
+
+.Card {
+  height: 330px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  border-left: 1px solid rgb(216, 214, 214);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(182, 186, 186, 0.67);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(182, 186, 186, 0.67);
+  box-shadow: 3px 4px 5px 0px rgba(182, 186, 186, 0.67);
+  cursor: pointer;
+}
+
+.Card:hover {
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(182, 186, 186, 0.67);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(182, 186, 186, 0.67);
+  box-shadow: 5px 5px 10px 0px rgba(182, 186, 186, 0.67);
+}
+
+.linkCard {
+  text-decoration: none;
+  color: #191919;
+  font-weight: 600;
+}

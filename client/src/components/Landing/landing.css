@@ -1,0 +1,13 @@
+.landing {
+  background: url("../../img/landing.jpg");
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+
+.landing p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+}

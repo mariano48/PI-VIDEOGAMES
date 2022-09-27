@@ -1,0 +1,21 @@
+.errorDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+  height: 635px;
+  width: 100%;
+}
+
+.errorDiv p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.errorDiv button {
+  border-radius: 9px;
+  background: #f9f9f9;
+  border: 1px solid rgb(206, 206, 206);
+  height: 45px;
+}
